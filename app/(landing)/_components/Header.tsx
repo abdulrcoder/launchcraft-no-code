@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
+import { Link } from "react-scroll";
 
 const Header = () => (
   <header className="flex justify-between items-center p-4 md:px-8 bg-black shadow-md">
@@ -8,16 +10,32 @@ const Header = () => (
     </div>
 
     <nav className="hidden md:flex gap-4">
-      <a href="#features" className="text-white hover:text-blue-400">
+      <Link
+        to="features"
+        smooth={true}
+        duration={500}
+        className="text-white hover:text-blue-400 cursor-pointer"
+      >
         Features
-      </a>
-      <a href="#pricing" className="text-white hover:text-blue-400">
+      </Link>
+      <Link
+        to="pricing"
+        smooth={true}
+        duration={500}
+        className="text-white hover:text-blue-400 cursor-pointer"
+      >
         Pricing
-      </a>
-      <a href="#contact" className="text-white hover:text-blue-400">
+      </Link>
+      <Link
+        to="contact"
+        smooth={true}
+        duration={500}
+        className="text-white hover:text-blue-400 cursor-pointer"
+      >
         Contact
-      </a>
+      </Link>
     </nav>
+
     <HoverBorderGradient className="text-center px-6 py-2 text-sm">
       Sign in
     </HoverBorderGradient>
