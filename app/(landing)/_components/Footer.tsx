@@ -1,14 +1,44 @@
 import React from "react";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 
 const Footer = () => (
-  <footer className="p-4 md:p-8 bg-gray-800 text-white text-center">
-    <p>&copy; 2024 LaunchCraft. All rights reserved.</p>
-    <div className="flex justify-center mt-4 space-x-4">
-      <a href="#" className="hover:text-blue-400">
-        Privacy Policy
+  <footer className="p-6 md:p-10 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center">
+    <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
+      <p className="text-sm md:text-base">
+        &copy; 2024 LaunchCraft. All rights reserved.
+      </p>
+      <div className="flex space-x-6">
+        <a
+          href="#"
+          className="hover:text-blue-400 transition-colors duration-200"
+        >
+          Privacy Policy
+        </a>
+        <a
+          href="#"
+          className="hover:text-blue-400 transition-colors duration-200"
+        >
+          Terms of Service
+        </a>
+      </div>
+    </div>
+    <div className="flex justify-center mt-6 space-x-4 text-lg">
+      <a href="#" className="hover:text-blue-500 transition duration-200">
+        <FaFacebookF />
       </a>
-      <a href="#" className="hover:text-blue-400">
-        Terms of Service
+      <a href="#" className="hover:text-blue-400 transition duration-200">
+        <FaTwitter />
+      </a>
+      <a href="#" className="hover:text-pink-400 transition duration-200">
+        <FaInstagram />
+      </a>
+      <a href="#" className="hover:text-blue-600 transition duration-200">
+        <FaLinkedinIn />
       </a>
     </div>
   </footer>
