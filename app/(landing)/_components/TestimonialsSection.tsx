@@ -1,5 +1,4 @@
 import { testimonials } from "@/constants";
-import { Testimonial } from "@/types";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const Testimonials = () => (

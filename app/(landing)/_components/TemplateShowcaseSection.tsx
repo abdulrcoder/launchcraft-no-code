@@ -15,7 +15,10 @@ const TemplateShowcase = () => (
     </h2>
     <div className="grid gap-6 md:grid-cols-3 px-4 md:px-16">
       {templates.map((template: Template, index: number) => (
-        <BackgroundGradient className="rounded-[22px] max-w-sm  bg-[#18181B] dark:bg-zinc-900 overflow-hidden">
+        <BackgroundGradient
+          key={index}
+          className="rounded-[22px] max-w-sm  bg-[#18181B] dark:bg-zinc-900 overflow-hidden"
+        >
           <img
             src={template.imageUrl}
             alt={template.altText}

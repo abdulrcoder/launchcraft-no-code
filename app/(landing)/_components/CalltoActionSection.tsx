@@ -1,6 +1,6 @@
 import React from "react";
 import { BackgroundLines } from "./ui/background-lines";
-import { div } from "framer-motion/client";
+
 import { Button } from "./ui/moving-border";
 
 const CalltoActionSection = () => {
