@@ -4,7 +4,7 @@
 
 LaunchCraft is a beautifully designed, fully responsive landing page created with Next.js 15 and Assernity UI. It’s perfect for showcasing products, services, or applications with a clean, modern design.
 
-![LaunchCraft Preview]()
+![LaunchCraft Preview](https://github.com/abdulrcodes/launchcraft-no-code/blob/main/public/images/showcase.png)
 
 _Preview of the LaunchCraft landing page design_
 
