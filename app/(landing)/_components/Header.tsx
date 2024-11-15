@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Header = () => (
   <header className="flex justify-between items-center p-4 md:px-8 bg-black shadow-md">
-    <div className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 shadow-lg">
+    <div className="text-3xl bg-transparent font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 shadow-lg">
       LaunchCraft
     </div>
 

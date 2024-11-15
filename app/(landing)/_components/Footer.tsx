@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => (
-  <footer className="p-6 md:p-10 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white text-center">
+  <footer className="p-6 md:p-10 bg-gradient-to-b from-[#1E222E] to-black text-white text-center">
     <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
       <p className="text-sm md:text-base">
         &copy; 2024 LaunchCraft. All rights reserved.

@@ -4,32 +4,32 @@ export const features: Feature[] = [
   {
     title: "Drag-and-Drop Editor",
     description: "Easily create your page layout without any code.",
-    link: "/features/drag-and-drop-editor",
+    link: "/",
   },
   {
     title: "Mobile Responsive",
     description: "Your pages look great on any device automatically.",
-    link: "/features/mobile-responsive",
+    link: "/",
   },
   {
     title: "SEO Optimized",
     description: "Ensure your page ranks well on search engines.",
-    link: "/features/seo-optimized",
+    link: "/",
   },
   {
     title: "Analytics Integration",
     description: "Gain insights into your audience with built-in analytics.",
-    link: "/features/analytics-integration",
+    link: "/",
   },
   {
     title: "Custom Domain Support",
     description: "Connect your own domain to make your site truly unique.",
-    link: "/features/custom-domain-support",
+    link: "/",
   },
   {
     title: "E-Commerce Ready",
     description: "Easily add products and start selling online.",
-    link: "/features/e-commerce-ready",
+    link: "/",
   },
 ];
 

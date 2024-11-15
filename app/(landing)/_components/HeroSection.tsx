@@ -31,7 +31,7 @@ const HeroSection = () => {
 
       {/* Conditionally render the Button and Image only when in the client */}
       {isClient && (
-        <Button className="w-full max-w-4xl mx-auto h-full rounded-lg overflow-hidden">
+        <Button className="w-full max-w-4xl mx-auto h-full  overflow-hidden">
           <div>
             <img
               src="/images/dashboard.svg"
